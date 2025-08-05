@@ -61,7 +61,7 @@ footer {
 .navbar {
   width: 100%;
   box-sizing: border-box;
-  position: relative; /* or fixed if you want it sticky */
+  position: fixed; /* or fixed if you want it sticky */
   top: 0;
   left: 0;
   z-index: 10;
