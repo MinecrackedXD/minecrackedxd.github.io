@@ -59,14 +59,18 @@ footer {
 }
 
 .navbar {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative; /* or fixed if you want it sticky */
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #2c2c2c;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2c2c2c;
   padding: 1rem 2rem;
-  border-radius: 8px;
   box-shadow: 0 0 10px #000;
-  margin-bottom: 2rem;
 }
 
 .nav-logo img {
@@ -93,4 +97,11 @@ footer {
 .nav-links li a:hover {
   color: #28a745;
   text-shadow: 0 0 6px #28a745;
+}
+
+.container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  text-align: center;
 }
