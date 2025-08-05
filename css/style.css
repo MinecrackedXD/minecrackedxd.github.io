@@ -98,10 +98,3 @@ footer {
   color: #28a745;
   text-shadow: 0 0 6px #28a745;
 }
-
-.container {
-  max-width: 700px;
-  margin: 3rem auto;
-  padding: 0 1rem;
-  text-align: center;
-}
